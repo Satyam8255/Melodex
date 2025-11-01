@@ -1,6 +1,6 @@
 import axios from "axios";
 export async function getSongs(termName){
-  const URL = `https://itunes.apple.com/search?term=${termName}&limit=25`;
+  const URL = `https://itunes.apple.com/search?term=j${termName}&limit=25`;
 
    const response = await axios.get(URL);
     console.log(response.data['results']);
