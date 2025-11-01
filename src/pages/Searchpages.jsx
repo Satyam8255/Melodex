@@ -49,7 +49,7 @@ const tooglePlayer = (flag , songarg) => {
   
 
  <div className="container">
-    <h1 color=" alert alert-info text-center">Music Web Store</h1>
+    <h1 color=" alert alert-info text-center">Melodex - Music Streaming</h1>
  
 
 
